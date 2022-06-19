@@ -5,7 +5,7 @@ library(stylo)
 pasadas = 10
 df = data.frame()
 total_ficheros = 15 # nº ficheros en el secondary_set
-list.mfws = c(100,500,1000,2000,3000,4000,5000,7000,10000)
+list.mfws = c(100,500,1000,2000,3000,4000,5000)
 list.features = c("w", "c")
 list.ngrams = c(1,2,3,4)
 list.distances = c("dist.delta", "dist.wurzburg", "dist.eder", "dist.minmax")
